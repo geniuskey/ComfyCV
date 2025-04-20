@@ -41,5 +41,5 @@ class CFGZeroStar:
         return (m, )
 
 NODE_CLASS_MAPPINGS = {
-    "CFGZeroStar": CFGZeroStar
+    # "CFGZeroStar": CFGZeroStar
 }

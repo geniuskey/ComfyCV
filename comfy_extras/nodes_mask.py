@@ -364,21 +364,21 @@ class ThresholdMask:
 
 
 NODE_CLASS_MAPPINGS = {
-    "LatentCompositeMasked": LatentCompositeMasked,
-    "ImageCompositeMasked": ImageCompositeMasked,
-    "MaskToImage": MaskToImage,
-    "ImageToMask": ImageToMask,
-    "ImageColorToMask": ImageColorToMask,
-    "SolidMask": SolidMask,
-    "InvertMask": InvertMask,
-    "CropMask": CropMask,
-    "MaskComposite": MaskComposite,
-    "FeatherMask": FeatherMask,
-    "GrowMask": GrowMask,
-    "ThresholdMask": ThresholdMask,
+    # "LatentCompositeMasked": LatentCompositeMasked,
+    # "ImageCompositeMasked": ImageCompositeMasked,
+    # "MaskToImage": MaskToImage,
+    # "ImageToMask": ImageToMask,
+    # "ImageColorToMask": ImageColorToMask,
+    # "SolidMask": SolidMask,
+    # "InvertMask": InvertMask,
+    # "CropMask": CropMask,
+    # "MaskComposite": MaskComposite,
+    # "FeatherMask": FeatherMask,
+    # "GrowMask": GrowMask,
+    # "ThresholdMask": ThresholdMask,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "ImageToMask": "Convert Image to Mask",
-    "MaskToImage": "Convert Mask to Image",
+    # "ImageToMask": "Convert Image to Mask",
+    # "MaskToImage": "Convert Mask to Image",
 }

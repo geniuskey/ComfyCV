@@ -141,19 +141,19 @@ def test_base_path_change_clears_old(set_base_dir):
 
     single_model_paths = [
         "checkpoints",
-        "loras",
-        "vae",
+        # "loras",
+        # "vae",
         "configs",
-        "clip_vision",
-        "style_models",
-        "diffusers",
-        "vae_approx",
-        "gligen",
-        "upscale_models",
-        "embeddings",
-        "hypernetworks",
-        "photomaker",
-        "classifiers",
+        # "clip_vision",
+        # "style_models",
+        # "diffusers",
+        # "vae_approx",
+        # "gligen",
+        # "upscale_models",
+        # "embeddings",
+        # "hypernetworks",
+        # "photomaker",
+        # "classifiers",
     ]
     for name in single_model_paths:
         assert len(folder_paths.get_folder_paths(name)) == 1

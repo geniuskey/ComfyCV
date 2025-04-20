@@ -192,8 +192,8 @@ class SaveAnimatedPNG:
 
 NODE_CLASS_MAPPINGS = {
     "ImageCrop": ImageCrop,
-    "RepeatImageBatch": RepeatImageBatch,
-    "ImageFromBatch": ImageFromBatch,
-    "SaveAnimatedWEBP": SaveAnimatedWEBP,
-    "SaveAnimatedPNG": SaveAnimatedPNG,
+    # "RepeatImageBatch": RepeatImageBatch,
+    # "ImageFromBatch": ImageFromBatch,
+    # "SaveAnimatedWEBP": SaveAnimatedWEBP,
+    # "SaveAnimatedPNG": SaveAnimatedPNG,
 }

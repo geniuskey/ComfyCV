@@ -40,5 +40,5 @@ class SaveImageWebsocket:
         return time.time()
 
 NODE_CLASS_MAPPINGS = {
-    "SaveImageWebsocket": SaveImageWebsocket,
+    # "SaveImageWebsocket": SaveImageWebsocket,
 }
